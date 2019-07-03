@@ -1,0 +1,11 @@
+logging:
+  level: debug
+  pattern:
+server:
+  port: 8080
+info:
+  name: Application-master
+  desc: 项目启动
+spring:
+  application:
+    name: ${info.name}
